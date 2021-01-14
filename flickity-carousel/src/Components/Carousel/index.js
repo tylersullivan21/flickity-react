@@ -1,26 +1,19 @@
-import react from 'react';
+import ReactDOM from "react-dom";
+import Flickity from "react-flickity-component";
 
-// Commonjs
-const Flickity = require('flickity');
- 
-const flickityOptions = {
-    initialIndex: 2
-}
- 
+import "../src/flickity.css";
+import "../src/index.css";
+
 function Carousel() {
   return (
-    <Flickity
-      className={'carousel'} // default ''
-      elementType={'div'} // default 'div'
-      options={flickityOptions} // takes flickity options {}
-      disableImagesLoaded={false} // default false
-      reloadOnUpdate // default false
-      static // default false
-    >
-      <img src="/images/placeholder.png"/>
-      <img src="/images/placeholder.png"/>
-      <img src="/images/placeholder.png"/>
+    <Flickity>
+      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
+      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
+      <img style={{ marginLeft: 0, marginRight: 0 }} src="https://placeimg.com/640/480/animals" />
+      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
     </Flickity>
-  )
+  );
 }
- 
+
+
+export default Carousel;
