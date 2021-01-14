@@ -10,7 +10,7 @@ function Carousel() {
     <Flickity>
       <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
       <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
-      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
+      <img style={{ marginLeft: 0, marginRight: 0 }} src="https://placeimg.com/640/480/animals" />
       <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
     </Flickity>
   );
