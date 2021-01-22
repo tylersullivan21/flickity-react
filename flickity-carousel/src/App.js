@@ -8,10 +8,10 @@ import "../src/index.css";
 function Carousel() {
   return (
     <Flickity>
-      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
-      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
-      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
-      <img style={{ marginLeft: 5, marginRight: 5 }} src="https://placeimg.com/640/480/animals" />
+      <img style={{ }} src="https://via.placeholder.com/1200x580.png" />
+      <img style={{ }} src="https://via.placeholder.com/1200x580.png" />
+      <img style={{  }} src="https://via.placeholder.com/1200x580.png" />
+      <img style={{ }} src="https://via.placeholder.com/1200x580.png" />
     </Flickity>
   );
 }

@@ -3,22 +3,15 @@ import $ from "jquery";
 import Flickity from "react-flickity-component";
 class Carousel extends React.Component{
 componentDidMount(){
-    var elem = document.querySelector('.main-carousel');
+    var elem = document.querySelector('.carousel');
     var flkty = new Flickity( elem, {
       // options
       cellAlign: 'center',
-      contain: false,
-    
+      contain: true,
+     wrap-around:true;
     });
     
-    // element argument can be a selector string
-    //   for an individual element
-    var flkty = new Flickity( '.carousel', {
-      // options
-      wrapAround: true,
-      freeScroll: true,
-freeScrollFriction: 0.03
-    });
+);
 }
 
 render(){
@@ -27,16 +20,16 @@ render(){
  
  <div class="carousel">
   <div class="carousel-cell">
-  <img src="https://placeimg.com/640/480/animals" alt=""/>
+  <img src="https://via.placeholder.com/1200x1080.png" alt=""/>
   </div>
   <div class="carousel-cell">
-  <img src="https://placeimg.com/640/480/animals" alt=""/>
+  <img src="https://via.placeholder.com/1200x1080.png" alt=""/>
   </div>
   <div class="carousel-cell">
-  <img src="https://placeimg.com/640/480/animals" alt=""/>
+  <img src="https://via.placeholder.com/1200x1080.png" alt=""/>
   </div>
-   <div class="carousel-cell">
-  <img src="https://placeimg.com/640/480/animals" alt=""/>
+  <div class="carousel-cell">
+  <img src="https://via.placeholder.com/1200x1080.png" alt=""/>
   </div>
 
 </div>
