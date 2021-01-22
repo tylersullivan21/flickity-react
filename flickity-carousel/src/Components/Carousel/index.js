@@ -4,11 +4,12 @@ import Flickity from "react-flickity-component";
 class Carousel extends React.Component{
 componentDidMount(){
     var elem = document.querySelector('.carousel');
-    var flkty = new Flickity( elem, {
+    var Flickity = new Flickity( elem, {
       // options
       cellAlign: 'center',
+      wrapAround:true,
       contain: true,
-     wrap-around:true;
+    
     });
     
 );

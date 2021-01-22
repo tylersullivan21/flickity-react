@@ -21,6 +21,7 @@ function Home() {
     <div className="App">
       <h1>React Flickity</h1>
       <Carousel />
+     
     </div>
   );
 }
